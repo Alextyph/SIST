@@ -1,0 +1,190 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\Proyecto-SIST\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\etc\npmrc
+7 verbose title npm install playwright
+8 verbose argv "install" "--save-dev" "--offline" "--no-audit" "--no-fund" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache" "playwright"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_35_42_965Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_35_42_965Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest playwright@*
+15 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+16 http cache https://registry.npmjs.org/playwright 75ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/playwright set size:16943611 disposed:false
+18 silly placeDep ROOT playwright@1.64.1 OK for:  want: *
+19 silly fetch manifest playwright-core@1.64.1
+20 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+21 http cache https://registry.npmjs.org/playwright-core 29ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:18610877 disposed:false
+23 silly placeDep ROOT playwright-core@1.64.1 OK for: playwright@1.64.1 want: 1.64.1
+24 silly reify moves {}
+25 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-win32-arm64-msvc
+26 silly reify mark deleted [
+26 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-win32-arm64-msvc'
+26 silly reify ]
+27 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-x64-musl
+28 silly reify mark deleted [
+28 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-x64-musl'
+28 silly reify ]
+29 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-x64-gnu
+30 silly reify mark deleted [
+30 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-x64-gnu'
+30 silly reify ]
+31 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-arm64-musl
+32 silly reify mark deleted [
+32 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-arm64-musl'
+32 silly reify ]
+33 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-arm64-gnu
+34 silly reify mark deleted [
+34 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-arm64-gnu'
+34 silly reify ]
+35 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-darwin-x64
+36 silly reify mark deleted [
+36 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-darwin-x64'
+36 silly reify ]
+37 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-darwin-arm64
+38 silly reify mark deleted [
+38 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-darwin-arm64'
+38 silly reify ]
+39 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-win32-ia32
+40 silly reify mark deleted [
+40 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-win32-ia32'
+40 silly reify ]
+41 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-win32-arm64
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-win32-arm64'
+42 silly reify ]
+43 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-webcontainers-wasm32
+44 silly reify mark deleted [
+44 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-webcontainers-wasm32'
+44 silly reify ]
+45 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linuxmusl-x64
+46 silly reify mark deleted [
+46 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linuxmusl-x64'
+46 silly reify ]
+47 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linuxmusl-arm64
+48 silly reify mark deleted [
+48 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linuxmusl-arm64'
+48 silly reify ]
+49 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-x64
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-x64'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-s390x
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-s390x'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-riscv64
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-riscv64'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-ppc64
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-ppc64'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-arm64
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-arm
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-arm'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linuxmusl-x64
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linuxmusl-arm64
+64 silly reify mark deleted [
+64 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-x64
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-x64'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-s390x
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-s390x'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-riscv64
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-ppc64
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-arm64
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-arm64'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-arm
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-arm'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-darwin-x64
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-darwin-x64'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-darwin-arm64
+80 silly reify mark deleted [
+80 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+80 silly reify ]
+81 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-freebsd-wasm32
+82 silly reify mark deleted [
+82 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-freebsd-wasm32'
+82 silly reify ]
+83 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-darwin-x64
+84 silly reify mark deleted [
+84 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-darwin-x64'
+84 silly reify ]
+85 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-darwin-arm64
+86 silly reify mark deleted [
+86 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-darwin-arm64'
+86 silly reify ]
+87 http cache playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz 0ms (cache hit)
+88 http cache playwright@https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz 0ms (cache hit)
+89 silly ADD node_modules/playwright-core
+90 silly ADD node_modules/playwright
+91 silly ADD
+92 silly ADD
+93 silly ADD
+94 silly ADD
+95 silly ADD
+96 silly ADD
+97 silly ADD
+98 silly ADD
+99 silly ADD
+100 silly ADD
+101 silly ADD
+102 silly ADD
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 verbose cwd C:\Users\Alex\SIST\Proyecto-SIST
+123 verbose os Windows_NT 10.0.26300
+124 verbose node v22.23.4
+125 verbose npm  v10.9.9
+126 verbose exit 0
+127 info ok

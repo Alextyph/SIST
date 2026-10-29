@@ -1,0 +1,153 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\.tools\pdf-reader\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\pdf-reader\etc\npmrc
+7 verbose title npm install pdf-parse
+8 verbose argv "install" "--prefix" "C:/Users/Alex/SIST/.tools/pdf-reader" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache" "pdf-parse" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_14_25_628Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_14_25_628Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest pdf-parse@*
+15 silly packumentCache full:https://registry.npmjs.org/pdf-parse cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/pdf-parse 214ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/pdf-parse set size:undefined disposed:false
+18 silly placeDep ROOT pdf-parse@2.4.5 OK for:  want: *
+19 silly fetch manifest pdfjs-dist@5.4.296
+20 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist cache-miss
+21 silly fetch manifest @napi-rs/canvas@0.1.80
+22 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/npm 278ms
+24 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist 156ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas 173ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas set size:undefined disposed:false
+28 silly placeDep ROOT @napi-rs/canvas@0.1.80 OK for: pdf-parse@2.4.5 want: 0.1.80
+29 silly placeDep ROOT pdfjs-dist@5.4.296 OK for: pdf-parse@2.4.5 want: 5.4.296
+30 silly fetch manifest @napi-rs/canvas-darwin-x64@0.1.80
+31 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 cache-miss
+32 silly fetch manifest @napi-rs/canvas-darwin-arm64@0.1.80
+33 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 cache-miss
+34 silly fetch manifest @napi-rs/canvas-android-arm64@0.1.80
+35 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 cache-miss
+36 silly fetch manifest @napi-rs/canvas-linux-x64-gnu@0.1.80
+37 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu cache-miss
+38 silly fetch manifest @napi-rs/canvas-linux-x64-musl@0.1.80
+39 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl cache-miss
+40 silly fetch manifest @napi-rs/canvas-win32-x64-msvc@0.1.80
+41 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc cache-miss
+42 silly fetch manifest @napi-rs/canvas-linux-arm64-gnu@0.1.80
+43 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu cache-miss
+44 silly fetch manifest @napi-rs/canvas-linux-arm64-musl@0.1.80
+45 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl cache-miss
+46 silly fetch manifest @napi-rs/canvas-linux-riscv64-gnu@0.1.80
+47 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu cache-miss
+48 silly fetch manifest @napi-rs/canvas-linux-arm-gnueabihf@0.1.80
+49 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 94ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 98ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 100ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu 197ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu set size:undefined disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu 202ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu set size:undefined disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl 211ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl set size:undefined disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf 212ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf set size:undefined disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc 217ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu 222ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl 224ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl set size:undefined disposed:false
+70 silly placeDep ROOT @napi-rs/canvas-android-arm64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+71 silly placeDep ROOT @napi-rs/canvas-darwin-arm64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+72 silly placeDep ROOT @napi-rs/canvas-darwin-x64@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+73 silly placeDep ROOT @napi-rs/canvas-linux-arm-gnueabihf@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+74 silly placeDep ROOT @napi-rs/canvas-linux-arm64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+75 silly placeDep ROOT @napi-rs/canvas-linux-arm64-musl@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+76 silly placeDep ROOT @napi-rs/canvas-linux-riscv64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+77 silly placeDep ROOT @napi-rs/canvas-linux-x64-gnu@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+78 silly placeDep ROOT @napi-rs/canvas-linux-x64-musl@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+79 silly placeDep ROOT @napi-rs/canvas-win32-x64-msvc@0.1.80 OK for: @napi-rs/canvas@0.1.80 want: 0.1.80
+80 silly reify moves {}
+81 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-x64-musl
+82 silly reify mark deleted [
+82 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-x64-musl'
+82 silly reify ]
+83 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-x64-gnu
+84 silly reify mark deleted [
+84 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-x64-gnu'
+84 silly reify ]
+85 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-riscv64-gnu
+86 silly reify mark deleted [
+86 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-riscv64-gnu'
+86 silly reify ]
+87 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-arm64-musl
+88 silly reify mark deleted [
+88 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-arm64-musl'
+88 silly reify ]
+89 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-arm64-gnu
+90 silly reify mark deleted [
+90 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-arm64-gnu'
+90 silly reify ]
+91 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-linux-arm-gnueabihf
+92 silly reify mark deleted [
+92 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-linux-arm-gnueabihf'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-darwin-x64
+94 silly reify mark deleted [
+94 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-darwin-x64'
+94 silly reify ]
+95 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-darwin-arm64
+96 silly reify mark deleted [
+96 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-darwin-arm64'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\Users\Alex\SIST\.tools\pdf-reader\node_modules\@napi-rs\canvas-android-arm64
+98 silly reify mark deleted [
+98 silly reify   'C:\\Users\\Alex\\SIST\\.tools\\pdf-reader\\node_modules\\@napi-rs\\canvas-android-arm64'
+98 silly reify ]
+99 http cache @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz 0ms (cache hit)
+100 http cache pdf-parse@https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz 0ms (cache hit)
+101 http cache pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz 0ms (cache hit)
+102 silly tarball no local data for @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz. Extracting by manifest.
+103 http cache @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz 0ms (cache hit)
+104 silly tarball no local data for pdf-parse@https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz. Extracting by manifest.
+105 silly tarball no local data for pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz. Extracting by manifest.
+106 silly tarball no local data for @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz. Extracting by manifest.
+107 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas/-/canvas-0.1.80.tgz 229ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-5.4.296.tgz 3191ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.80.tgz 3296ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/pdf-parse/-/pdf-parse-2.4.5.tgz 3612ms (cache miss)
+111 silly ADD node_modules/@napi-rs/canvas-win32-x64-msvc
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD node_modules/pdfjs-dist
+122 silly ADD node_modules/@napi-rs/canvas
+123 silly ADD node_modules/pdf-parse
+124 verbose cwd C:\Users\Alex\SIST
+125 verbose os Windows_NT 10.0.26300
+126 verbose node v22.23.4
+127 verbose npm  v10.9.9
+128 notice
+128 notice New major version of npm available! 10.9.9 -> 12.2.1
+128 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+128 notice To update run: npm install -g npm@12.2.1
+128 notice  { force: true, [Symbol(proc-log.meta)]: true }
+129 verbose exit 0
+130 info ok

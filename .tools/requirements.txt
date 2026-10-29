@@ -1,0 +1,550 @@
+REQUERIMIENTOS DEL SISTEMA INTEGRAL DE SOPORTE
+TÉCNICO
+Los requerimientos del sistema seguirán el modelo FURPS+
+Funcionalidad.
+RF-1 — MUST
+Todos los miembros de la comunidad estudiantil deben de poder ingresar tickets,
+ingresando al sistema de manera obligatoria información de contacto, un nombre para el
+ticket, la categoría y subcategorías que corresponden al ticket, la ubicación del suceso, y
+cualquier comentario o información adicional que pueda ser relevante para la resolución
+efectiva del ticket.
+RF-1.1 — MUST
+Los usuarios deberán ingresar su nombre completo, su correo electrónico, y de
+manera opcional su número de teléfono que se les pedirá de manera obligatoria para que el
+sistema ingrese el ticket de manera exitosa.
+RF-1.2 — SHOULD
+El usuario podrá ingresar comentarios de máximo de 50 palabras al momento de
+ingresar un ticket en el sistema.
+RF-1.3 — MUST
+Los usuarios deberán ingresar el edificio, y de manera opcional el salón, donde se
+observó la falla para que el sistema ingrese el ticket de manera exitosa.
+RF-1.4 — MUST
+Las categorías y subcategorías que los miembros de la comunidad estudiantil pueden
+ingresar para sus tickets ingresados, son las siguientes:
+● Falla de equipo
+○ Reinicio de fecha y hora
+
+-- 1 of 21 --
+
+○ Sistema inoperable
+○ Arranque perpetuo
+○ Falla de conectividad a la red
+○ Falta de periféricos para su operación
+○ Otros
+● Falla de monitor
+○ Falla total
+○ Falla parcial
+● Falla de proyector
+○ Apagado por sobrecalentamiento.
+○ Falla de conexión.
+○ Imagen borrosa o con tinte.
+○ Falla total.
+● Instalación de software.
+● Instalación de impresora.
+● Falla de impresora.
+○ Incapacidad de impresión.
+○ Otros.
+● Falla de extensión o cableado eléctrico.
+● Mantenimiento preventivo a las máquinas.
+● Preparación para exámenes colegiados.
+● Otros.
+
+-- 2 of 21 --
+
+RF-1.5 — MUST
+El sistema debe de asignar automáticamente una prioridad a cada Ticket en base a la
+categoría y/o subcategorías asignadas al mismo, tal como se describe a continuación
+● Falla de equipo
+○ Reinicio de fecha y hora - Media
+○ Sistema inoperable - Alta
+○ Arranque perpetuo - Alta
+○ Falla de conectividad a la red - Media
+○ Falta de periféricos para su operación - Baja
+○ Otros - A consideración del administrador
+● Falla de monitor
+○ Falla total - Media
+○ Falla parcial - Baja
+● Falla de proyector
+○ Apagado por sobrecalentamiento. - Alta
+○ Falla de conexión. - Alta
+○ Imagen borrosa o con tinte. - Baja
+○ Falla total. - Alta
+● Instalación de software. - Alta
+● Instalación de impresora. - Alta
+● Falla de impresora.
+○ Incapacidad de impresión. - Alta
+○ Otros. - A consideración del administrador
+● Falla de extensión o cableado eléctrico.
+
+-- 3 of 21 --
+
+● Mantenimiento preventivo a las máquinas. - Baja
+● Preparación para exámenes colegiados. - Alta
+● Otros.
+RF-2 — MUST
+El sistema requerirá de una cuenta para permitir el acceso a los usuarios, cada cuenta
+necesitará del número de matrícula o trabajador del usuario que desee ingresar, así como su
+correo electrónico institucional.
+RF-2.1 — MUST
+El usuario podrá crear una cuenta al acceder al sistema, otorgando los datos
+requeridos para poder empezar a realizar sus acciones autorizadas.
+RF-3 — MUST
+El sistema permitirá realizar acciones dentro del mismo a los usuarios en base al rol al
+que pertenezca su cuenta.
+RF-3.1 — MUST
+El sistema contará con 4 roles de usuarios: Administrador, Sub-encargado, Miembro
+de Soporte Tecnico, y usuario.
+RF-3.2 — MUST
+Los usuarios con rol usuario podrán reportar cualquier falla dentro del plantel,
+debiendo seleccionar la categoría (y subcategorías que correspondan), el lugar de la
+ocurrencia, y una descripción de la falla o petición a tratar, y el sistema lo registrará.
+RF-3.3 — MUST
+Los usuarios con el rol Soporte Tecnico podrán visualizar las fallas correspondientes a
+su área, asignarse para su atención, notificar sobre la finalización de la atención, y poder
+consultar la bitácora.
+
+-- 4 of 21 --
+
+RF-3.4 — MUST
+Los usuarios con el rol Sub-encargado podrán realizar todas las actividades que un
+usuario con el rol Soporte Técnico pueda hacer, adicionalmente podrán modificar la bitácora
+y los registros del inventario.
+RF-3.5 — MUST
+Los usuarios con el rol administrador podrán realizar todas las actividades que un
+usuario con el rol Sub-encargado. Además, podrá asignar tareas a los usuarios con el rol
+Soporte técnico o Sub-encargado, y administrar a los miembros del equipo de soporte
+técnico.
+RF-4 -COULD
+El sistema analizará en el momento de registro de un nuevo ticket su categoría y
+ubicación ingresada para buscar en la base de datos de tickets activos, con el fin de decidir si
+es un ticket ya reportado con anterioridad e impedir el ingreso del ticket duplicado al sistema.
+RF-5 - MUST
+El sistema debe de permitir el acceso a los miembros del equipo de soporte técnico
+una bitácora digital donde se contenga toda la información relacionada a los tickets ya
+resueltos o en proceso de resolución.
+RF-5.1 - SHOULD
+El sistema debe de permitir el agregado de actividades a la bitácora a los usuarios con
+el rol Sub-encargado o Administrador, una vez ingresada las actividades deben de
+desplegarse inmediatamente en el sistema.
+RF-5.2 MUST
+El administrador y los Sub-encargados deberán de otorgar la siguiente información al
+momento de ingresar una entrada en la bitácora digital:
+● Nombre del ticket, la falla reportada.
+
+-- 5 of 21 --
+
+● Persona que realizó el reporte.
+● Información de contacto para la persona que realizó el reporte.
+● Fecha de inicio de servicio.
+● Fecha de finalización (si es aplicable).
+● Miembros del equipo de soporte técnico que realizaron el servicio.
+● Tiempo dedicado en horas.
+● El estado actual en el que se encuentra el ticket, ya sea en proceso o finalizado.
+RF-6 - COULD
+El sistema enviará un correo electrónico a los miembros del equipo de soporte técnico
+asignados a un ticket para su reparación una vez sean asignados a modo de aviso.
+RF-6.1 - COULD
+El sistema enviará un correo electrónico a los técnicos ya asignados a un ticket,
+recordándoles de la existencia del mismo en caso de que el ticket esté activo por más de una
+semana.
+RF-6.1.1 - COULD
+El sistema enviará estos recordatorios con una incidencia diaria, un correo por día,
+hasta que el ticket sea marcado como finalizado.
+RF-7 - MUST
+El sistema proveerá de un sistema de manejo de inventario interno que guardará todos
+los equipos oficialmente registrados como de propiedad de UABC y pertenezcan a la
+Facultad de Ciencias Químicas e Ingeniería.
+RF-7.1 - MUST
+El inventario manejara 3 entidades: Equipo de Cómputo, Proyectores, Controles (De
+proyector y aire acondicionado) y adaptadores de cableado.
+RF-7.2 - MUST
+
+-- 6 of 21 --
+
+El sistema pedirá al usuario en el momento de ingresar un equipo de cómputo modelo,
+código patrimonial, color, tamaño, ubicación y número de serie.
+RF-7.3 - MUST
+El sistema pedirá al usuario en el momento de ingresar proyectores color, modelo,
+tamaño y código patrimonial.
+RF-7.4 - MUST
+El sistema pedirá al usuario en el momento de ingresar controles el modelo y su
+cantidad total.
+Usabilidad.
+RNU-01 – Navegación e identificación de funciones — MUST
+El sistema deberá proporcionar una interfaz de navegación clara y consistente que
+permita a los usuarios identificar y acceder a las funcionalidades correspondientes a su rol.
+RNU-01.1
+El sistema deberá mostrar un menú de navegación que contenga únicamente las
+opciones y módulos disponibles para el rol del usuario autenticado.
+RNU-01.2
+El sistema deberá mantener una estructura de navegación consistente entre las
+diferentes vistas, conservando la ubicación y funcionamiento de los elementos principales de
+navegación.
+RNU-01.3
+El sistema deberá identificar mediante títulos o encabezados la sección en la que se
+encuentra actualmente el usuario.
+RNU-01.4
+
+-- 7 of 21 --
+
+Cuando un usuario intente acceder a una funcionalidad para la cual no tenga
+autorización, el sistema deberá impedir el acceso y mostrar un mensaje indicando que no
+cuenta con los permisos necesarios.
+RNU-02 – Facilidad para el registro de tickets — MUST
+El sistema deberá proporcionar un proceso comprensible para el registro de tickets,
+solicitando únicamente la información necesaria para identificar, clasificar y atender una
+solicitud de soporte técnico.
+RNU-02.1
+El formulario de registro de tickets deberá identificar claramente cada campo
+mediante una etiqueta que describa la información solicitada.
+RNU-02.2
+Cuando un campo sea obligatorio, el sistema deberá indicarlo visualmente antes de
+que el usuario intente enviar el formulario.
+RNU-02.3
+Cuando el usuario ingrese información inválida o incompleta, el sistema deberá
+mostrar un mensaje asociado al campo correspondiente indicando la causa del error.
+RNU-02.4
+Cuando exista un error de validación en uno o más campos, el sistema deberá
+conservar la información válida previamente ingresada por el usuario.
+RNU-02.5
+Cuando un ticket sea registrado exitosamente, el sistema deberá mostrar una
+confirmación indicando que la solicitud fue recibida.
+RNU-03 – Retroalimentación de las acciones del usuario — MUST
+El sistema deberá proporcionar retroalimentación visual después de las acciones que
+modifiquen información o el estado de algún elemento del sistema.
+
+-- 8 of 21 --
+
+RNU-03.1
+Cuando una operación sea realizada exitosamente, el sistema deberá mostrar una
+confirmación de la acción realizada.
+RNU-03.2
+Cuando una operación no pueda completarse, el sistema deberá informar al usuario
+que ocurrió un error y, cuando sea posible, indicar la causa.
+RNU-03.3
+Cuando una operación requiera tiempo de procesamiento, el sistema deberá mostrar
+un indicador visual que comunique al usuario que la operación se encuentra en proceso.
+RNU-03.4
+Las notificaciones generadas por el sistema deberán utilizar mensajes comprensibles
+para el usuario, evitando mostrar directamente errores técnicos internos, códigos de
+excepción o información de depuración.
+RNU-04 – Prevención y corrección de errores — MUST
+El sistema deberá reducir la posibilidad de que los usuarios realicen acciones
+incorrectas y deberá proporcionar mecanismos de confirmación para operaciones que puedan
+provocar cambios importantes en la información.
+RNU-04.1
+Antes de ejecutar una acción que elimine permanentemente información, el sistema
+deberá solicitar confirmación al usuario.
+RNU-04.2
+Antes de realizar cambios críticos en un ticket, como marcarlo como finalizado o
+cancelarlo, el sistema deberá solicitar confirmación al usuario.
+RNU-04.3
+
+-- 9 of 21 --
+
+Cuando un usuario ingrese información con un formato incorrecto, el sistema deberá
+indicar el campo que contiene el error y proporcionar información que permita corregirlo.
+RNU-04.4
+El sistema deberá deshabilitar o impedir la ejecución de acciones que no sean válidas
+para el estado actual de un ticket.
+RNU-04.5
+Cuando una acción no pueda realizarse debido al estado actual del ticket, el sistema
+deberá comunicar al usuario el motivo por el cual la operación fue rechazada.
+RNU-05 – Visualización y seguimiento de tickets — MUST
+El sistema deberá presentar la información de los tickets de forma que los usuarios
+puedan identificar fácilmente su estado, prioridad y datos principales.
+RNU-05.1
+Cada ticket deberá mostrar de manera visible, como mínimo, su identificador,
+categoría, ubicación, fecha de creación, prioridad y estado actual.
+RNU-05.2
+El sistema deberá utilizar indicadores visuales diferenciables para representar los
+diferentes estados de los tickets.
+RNU-05.3
+El sistema deberá utilizar indicadores visuales diferenciables para representar los
+niveles de prioridad asignados a los tickets.
+RNU-05.4
+Los indicadores de estado y prioridad no deberán depender exclusivamente del color,
+sino que deberán acompañarse de texto, iconos u otro elemento que permita identificar su
+significado.
+RNU-05.5
+
+-- 10 of 21 --
+
+Los usuarios deberán poder acceder desde el listado de tickets a una vista detallada
+que muestre la información disponible sobre el ticket seleccionado.
+RNU-06 – Búsqueda, filtrado y organización de información — SHOULD
+El sistema deberá proporcionar mecanismos que faciliten la localización de tickets,
+registros de bitácora e información relevante sin requerir una revisión manual de todos los
+registros disponibles.
+RNU-06.1
+Los miembros del equipo de soporte técnico deberán poder filtrar los tickets de
+acuerdo con su estado.
+RNU-06.2
+Los miembros del equipo de soporte técnico deberán poder filtrar los tickets de
+acuerdo con su categoría y nivel de prioridad.
+RNU-06.3
+El sistema deberá permitir localizar un ticket mediante su identificador.
+RNU-06.4
+Cuando una búsqueda o filtro no produzca resultados, el sistema deberá indicar
+claramente que no existen registros que coincidan con los criterios establecidos.
+RNU-06.5
+El sistema deberá permitir restablecer los filtros aplicados para regresar a la
+visualización general de los registros.
+RNU-07 – Consistencia de la interfaz — SHOULD
+El sistema deberá mantener consistencia visual y de comportamiento entre sus
+diferentes módulos para reducir el aprendizaje necesario para utilizar la plataforma.
+RNU-07.1
+
+-- 11 of 21 --
+
+Los botones que ejecuten una misma acción deberán mantener una denominación y
+representación consistente en las diferentes secciones del sistema.
+RNU-07.2
+Los formularios deberán mantener criterios consistentes para la presentación de
+etiquetas, campos obligatorios, mensajes de error y acciones de confirmación.
+RNU-07.3
+Los estados de los tickets deberán utilizar la misma terminología en todas las
+secciones donde sean mostrados.
+RNU-07.4
+Los niveles de prioridad deberán utilizar la misma terminología y representación
+visual en todas las vistas del sistema.
+RNU-07.5
+Los elementos interactivos deberán proporcionar una representación visual que
+permita distinguirlos de elementos únicamente informativos.
+RNU-08 – Accesibilidad y adaptabilidad de la interfaz — SHOULD
+El sistema deberá proporcionar una interfaz que permita realizar las funciones
+principales desde diferentes tamaños de pantalla y que considere características básicas de
+accesibilidad.
+RNU-08.1
+La interfaz deberá adaptarse a computadoras de escritorio, laptops, tabletas y
+dispositivos móviles sin impedir el acceso a las funciones principales correspondientes al rol
+del usuario.
+RNU-08.2
+Los formularios deberán permitir identificar mediante etiquetas textuales la
+información correspondiente a cada campo.
+
+-- 12 of 21 --
+
+RNU-08.3
+Las funciones principales del sistema deberán poder utilizarse mediante navegación
+por teclado.
+RNU-08.4
+Los elementos interactivos deberán mostrar un indicador visual cuando reciban el
+foco mediante navegación por teclado.
+RNU-08.5
+La interfaz deberá mantener suficiente contraste entre texto, fondo y elementos
+interactivos para permitir la correcta lectura de la información.
+RNU-08.6
+Los mensajes de error no deberán comunicarse exclusivamente mediante cambios de
+color, sino que deberán incluir una descripción textual del problema.
+RNU-0.9
+El manejo de roles de los usuarios deberá ser posible a través de un módulo de
+checklist.
+Fiabilidad
+RNF-01 – Disponibilidad Operativa — MUST
+El sistema deberá mantener una disponibilidad mínima del 99.5% durante el horario
+de operación definido por la facultad, excluyendo las ventanas de mantenimiento programado
+previamente notificadas.
+RNF-02 – Retención de Datos en Formulario ante Desconexión — MUST
+
+-- 13 of 21 --
+
+Ante una pérdida imprevista de conexión a la red durante la captura de un ticket o
+registro de bitácora, el sistema deberá retener localmente la información introducida por el
+usuario impidiendo su pérdida.
+RNF-03 – Restauración de Información tras Reconexión — MUST
+Una vez reanudada la conexión de red, el sistema deberá permitir al usuario continuar
+con la edición y envío de la información previamente retenida sin requerir reiniciar la captura
+desde cero.
+RNF-04 – Pérdida Máxima de Información por Falla (RPO) — MUST
+Ante un evento de pérdida o corrupción de datos en el almacenamiento persistente, el
+sistema deberá permitir recuperar la información registrada hasta un margen máximo de 12
+horas previas al momento del fallo.
+RNF-05 – Tiempo Máximo de Recuperación del Servicio (RTO) — MUST
+Ante una caída imprevista de la plataforma o del servidor de base de datos, el sistema
+deberá restablecer la disponibilidad de las funciones críticas de consulta y registro de tickets
+en un tiempo máximo de 2 horas.
+RNF-06 – Integridad Transaccional ante Fallos — MUST
+Cuando una operación de modificación de información falle antes de concluir su ciclo
+de procesamiento, el sistema deberá evitar que los cambios parciales de dicha operación sean
+almacenados.
+RNF-07 – Tolerancia a Fallos en el Servicio de Notificaciones — MUST
+
+-- 14 of 21 --
+
+Si el servicio de envío de correos electrónicos no se encuentra disponible, el sistema
+deberá conservar la notificación en espera sin interrumpir ni denegar la operación principal
+que la originó.
+RNF-08 – Exclusión Mutua en Asignación Concurrente de Tickets — MUST
+Cuando dos o más miembros de soporte técnico intenten asignarse simultáneamente el
+mismo ticket activo, el sistema deberá asignar el ticket a un solo usuario y rechazar las
+solicitudes restantes.
+RNF-09 – Consistencia en la Detección de Tickets Duplicados — MUST
+Cuando dos usuarios envíen solicitudes simultáneas de reporte que coincidan en
+categoría y ubicación activa (conforme a RF4), el sistema deberá registrar únicamente una de
+ellas como ticket activo e impedir el ingreso del duplicado.
+RNF-10 – Cumplimiento del Límite de Tickets Activos por Usuario — MUST
+El sistema deberá impedir que un usuario mantenga más de 10 tickets activos de
+forma simultánea, incluso ante solicitudes de creación emitidas en paralelo desde la misma
+cuenta.
+RNF-11 – Integridad de Referencias Relacionales — MUST
+El sistema deberá impedir la eliminación o modificación de identificadores de
+usuarios, categorías o elementos de inventario que se encuentren vinculados a tickets o
+registros de bitácora.
+RNF-12 – Validación de Entrada de Solicitudes — MUST
+El sistema deberá rechazar toda solicitud cuyos datos no cumplan con las reglas de
+tipo, estructura y formato definidas para la operación, antes de realizar cualquier
+modificación en los datos almacenados.
+RNF-13 – Aislamiento de Fallos en el Proceso de la Aplicación — MUST
+
+-- 15 of 21 --
+
+El sistema deberá evitar la terminación inesperada de la aplicación global ante la
+ocurrencia de una excepción no capturada durante la ejecución de una funcionalidad
+específica.
+RNF-14 – Recuperación de Conexión con la Base de Datos — MUST
+Ante una interrupción temporal en la comunicación con el motor de base de datos, el
+sistema deberá restablecer el canal de conexión automáticamente una vez que el servicio de
+almacenamiento vuelva a estar disponible.
+RNF-15 – Recuperación del Proceso de Recordatorios — MUST
+Si el proceso encargado de generar las notificaciones de recordatorio se interrumpe
+durante su ejecución, el sistema deberá continuar el procesamiento de los tickets pendientes
+cuando el proceso vuelva a ejecutarse.
+RNF-16 – No Duplicación de Recordatorios Diarios — MUST
+El sistema no deberá emitir más de un correo recordatorio diario correspondiente a un
+mismo ticket inactivo, independientemente de la cantidad de ejecuciones o reinicios que
+experimente el proceso de notificación.
+RNF-17 – Idempotencia en Cambios de Estado — MUST
+Cuando el sistema reciba múltiples solicitudes idénticas de cambio de estado para un
+mismo ticket debido a reintentos o problemas de red, deberá aplicar la modificación una sola
+vez.
+RNF-18 – Trazabilidad Inmutable en Modificaciones de Bitácora — MUST
+Cada modificación realizada sobre un registro existente de la bitácora deberá generar
+una entrada histórica inalterable que conserve el identificador del usuario responsable, la
+fecha/hora y los valores previos y nuevos.
+RNF-19 – Continuidad ante Fallos de Servicios Auxiliares — SHOULD
+
+-- 16 of 21 --
+
+Si el servicio de sugerencias automatizadas o asistente virtual no se encuentra
+disponible, el sistema deberá permitir que el usuario complete y envíe su ticket de soporte de
+manera manual.
+RNF-20 – Tasa Máxima de Errores Internos en Pruebas de Carga — MUST
+Durante las pruebas de carga con la concurrencia definida de 100 usuarios
+simultáneos, las respuestas con código HTTP 500 originadas por errores internos no
+controlados deberán representar como máximo el 0.1% (≤ 0.1%) del total de solicitudes
+procesadas.
+Rendimiento.
+RNR-01
+El sistema deberá procesar la creación e ingreso de solicitudes de soporte técnico
+(tickets) proporcionando un tiempo de respuesta máximo de 2 segundos al enviar el
+formulario.
+RNR-02
+El sistema deberá ejecutar la verificación de duplicados en la base de datos de tickets
+activos en un tiempo de respuesta inferior a 1.5 segundos antes de confirmar el registro de
+una nueva solicitud.
+RNR-03
+El sistema deberá refrescar y desplegar la información en el tablero dinámico de
+control en un tiempo no mayor a 1 segundo al registrar o actualizar tickets.
+RNR-04
+El sistema deberá ejecutar las búsquedas y filtrados de tickets y bitácora (por estado,
+categoría, prioridad o identificador) en un tiempo máximo de 2 segundos.
+RNR-05
+
+-- 17 of 21 --
+
+El sistema deberá despachar las notificaciones por correo electrónico a los miembros
+de soporte técnico en un lapso no mayor a 30 segundos después de ser asignados a un ticket.
+RNR-06
+El sistema deberá soportar la concurrencia de al menos 100 usuarios simultáneos en la
+plataforma web sin presentar degradación en el rendimiento.
+RNR-07
+El sistema deberá desplegar en la bitácora digital las actividades ingresadas por los
+usuarios con rol de Sub-encargado o Administrador en menos de 1.5 segundos.
+RNR-08
+El sistema deberá procesar la validación de credenciales durante el inicio de sesión y
+registro de cuentas en un tiempo de respuesta no superior a 2 segundos.
+RNR-09
+El sistema deberá ejecutar el proceso automatizado de revisión e identificación de
+tickets inactivos por más de una semana en un tiempo máximo de ejecución de 5 minutos
+durante su programación diaria.
+RNR-10
+El sistema deberá adaptar y renderizar la interfaz gráfica en dispositivos móviles,
+tabletas y computadoras en un tiempo de carga no mayor a 2.5 segundos.
+RNR-11
+El sistema deberá desplegar las sugerencias de solución y problemas comunes del
+asistente virtual en un tiempo máximo de 1 segundo tras seleccionar una categoría.
+RNR-12
+El sistema deberá procesar y reflejar la asignación de un técnico a un ticket activo en
+la base de datos en menos de 1.5 segundos.
+RNR-13
+
+-- 18 of 21 --
+
+El sistema deberá consultar y presentar la vista detallada de un ticket seleccionado a
+partir del listado general en un tiempo de carga no superior a 1.5 segundos.
+RNR-14
+El sistema deberá generar y procesar los reportes de resumen de actividades por rango
+de fechas en un tiempo máximo de 5 segundos.
+RNR-15
+El sistema deberá mantener el peso total de las peticiones HTTP por página por
+debajo de los 3 MB para garantizar una navegación fluida.
+RNR-16
+El sistema deberá calcular de manera automatizada el nivel de prioridad de un ticket
+en función de la categoría y jerarquía en menos de 0.5 segundos al momento del registro.
+RNR-17
+El sistema deberá realizar la consulta del historial de fallas e inventario vinculado a un
+dispositivo específico en un tiempo máximo de 2 segundos.
+RNR-18
+El sistema deberá reflejar los cambios de estado de un ticket en la interfaz de usuario
+con un tiempo de latencia inferior a 1 segundo tras ser confirmados.
+RNR-19
+El sistema deberá mantener tiempos de respuesta de consulta menores a 2 segundos
+incluso cuando el volumen del historial supere los 50,000 registros de incidencias.
+RNR-20
+El sistema deberá restablecer y renderizar la vista general de registros en menos de 1
+segundo al limpiar o cambiar los filtros aplicados.
+Mantenibilidad
+
+-- 19 of 21 --
+
+RNM-01 – Arquitectura Modular y Desacoplada — MUST
+El sistema deberá implementarse mediante una arquitectura en capas o desacoplada
+(Frontend/Backend vía API REST), asegurando que las modificaciones en la interfaz visual,
+el motor de base de datos o la lógica de negocio de tickets e inventario puedan realizarse de
+forma independiente sin afectar el resto de los módulos.
+RNM-02 – Configuración Externa y Parametrización — MUST
+El sistema deberá almacenar todos los parámetros de entorno (credenciales de la base
+de datos, puerto del servidor, credenciales del servidor SMTP para notificaciones y firmas de
+correo) en archivos de configuración externos o variables de entorno (.env), evitando el uso
+de valores fijos (hardcoded) en el código fuente.
+RNM-03 – Registro de Diagnóstico y Auditoría Técnica (Logging) — MUST
+El sistema deberá generar un registro centralizado de logs estructurados ante cualquier
+fallo o excepción interna (errores de conexión a BD, fallas en envío de correos, errores HTTP
+500), incluyendo fecha/hora (timestamp), nivel de severidad (INFO, WARN, ERROR,
+FATAL) y la traza del error (stack trace) para facilitar el diagnóstico por parte del equipo de
+desarrollo.
+RNM-04 – Control de Versiones y Migración de Base de Datos — MUST
+Los cambios en el esquema de la base de datos (creación o modificación de tablas
+para tickets, inventario o bitácora) deberán gestionarse mediante scripts de migración
+versionados, permitiendo actualizar o revertir la estructura de la base de datos de manera
+automatizada entre entornos mediante un ORM base PostgreSQL.
+RNM-05 – Documentación del Código y API — SHOULD
+El código fuente deberá estar documentado internamente bajo el estándar del lenguaje
+seleccionado (e.g., JSDoc, Docstrings, PHPDoc) en funciones complejas y controladores.
+
+-- 20 of 21 --
+
+Adicionalmente, las rutas expuestas de la API deberán contar con documentación técnica
+interactiva accesible mediante especificaciones abiertas (e.g., OpenAPI / Swagger).
+RNM-06 – Estandarización del Código y Análisis Estático — SHOULD
+El código fuente deberá sujetarse a reglas de estilo unificadas mediante herramientas
+de análisis estático (linters), previniendo variables no utilizadas, bloques de código
+inalcanzables o desviaciones de sintaxis antes de integrar cambios al repositorio principal.
+RNM-07 – Portabilidad y Despliegue Contenerizado — COULD
+El sistema deberá incluir archivos de configuración de contenedor (como Dockerfile y
+docker-compose.yml) que permitan empaquetar la aplicación con sus dependencias para
+desplegar el entorno de desarrollo y producción de forma idéntica y automatizada.
+
+-- 21 of 21 --
+

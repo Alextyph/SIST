@@ -1,0 +1,39 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\.tools\browser-qa\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\browser-qa\etc\npmrc
+7 verbose title npm install playwright
+8 verbose argv "install" "--prefix" "C:/Users/Alex/SIST/.tools/browser-qa" "--no-save" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache" "playwright" "--no-audit" "--no-fund" "--fetch-retries" "0"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_30_49_115Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_30_49_115Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest playwright@*
+15 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/playwright 1008ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+18 silly placeDep ROOT playwright@1.64.1 OK for:  want: *
+19 silly fetch manifest playwright-core@1.64.1
+20 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/playwright-core 435ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:undefined disposed:false
+23 silly placeDep ROOT playwright-core@1.64.1 OK for: playwright@1.64.1 want: 1.64.1
+24 silly reify moves {}
+25 http cache playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz 0ms (cache hit)
+26 silly tarball no local data for playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz. Extracting by manifest.
+27 http cache playwright@https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz 0ms (cache hit)
+28 silly tarball no local data for playwright@https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz 615ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz 711ms (cache miss)
+31 silly ADD node_modules/playwright-core
+32 silly ADD node_modules/playwright
+33 verbose cwd C:\Users\Alex\SIST
+34 verbose os Windows_NT 10.0.26300
+35 verbose node v22.23.4
+36 verbose npm  v10.9.9
+37 verbose exit 0
+38 info ok

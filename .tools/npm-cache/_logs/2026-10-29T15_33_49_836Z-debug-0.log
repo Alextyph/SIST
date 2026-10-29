@@ -1,0 +1,34 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\Proyecto-SIST\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\etc\npmrc
+7 verbose title npm exec prettier --write app components lib next.config.mjs package.json README.md docs
+8 verbose argv "exec" "--yes" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache" "--package" "prettier" "--" "prettier" "--write" "app" "components" "lib" "next.config.mjs" "package.json" "README.md" "docs"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_33_49_836Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_33_49_836Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/prettier 266ms (cache miss)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly idealTree buildDeps
+16 silly fetch manifest prettier@3.9.10
+17 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/prettier 231ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/prettier set size:undefined disposed:false
+20 silly placeDep ROOT prettier@3.9.10 OK for:  want: 3.9.10
+21 silly reify moves {}
+22 silly audit bulk request { prettier: [ '3.9.10' ] }
+23 http cache prettier@https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz 0ms (cache hit)
+24 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 183ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz 1678ms (cache miss)
+28 verbose cwd C:\Users\Alex\SIST\Proyecto-SIST
+29 verbose os Windows_NT 10.0.26300
+30 verbose node v22.23.4
+31 verbose npm  v10.9.9
+32 verbose exit 0
+33 info ok

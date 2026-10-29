@@ -1,0 +1,26 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\.tools\browser-qa\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\browser-qa\etc\npmrc
+7 verbose title npm install playwright
+8 verbose argv "install" "--prefix" "C:/Users/Alex/SIST/.tools/browser-qa" "--no-save" "--no-audit" "--no-fund" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache" "playwright"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_31_01_715Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_31_01_715Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest playwright@*
+15 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+16 http cache https://registry.npmjs.org/playwright 40ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/playwright set size:16943611 disposed:false
+18 silly placeDep ROOT playwright@1.64.1 REPLACE for:  want: *
+19 silly reify moves {}
+20 verbose cwd C:\Users\Alex\SIST
+21 verbose os Windows_NT 10.0.26300
+22 verbose node v22.23.4
+23 verbose npm  v10.9.9
+24 verbose exit 0
+25 info ok

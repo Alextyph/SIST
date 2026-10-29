@@ -1,0 +1,284 @@
+0 verbose cli C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node.exe C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.9
+2 info using node@v22.23.4
+3 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Alex\SIST\Proyecto-SIST\.npmrc
+5 silly config load:file:C:\Users\Alex\.npmrc
+6 silly config load:file:C:\Users\Alex\SIST\.tools\node-v22.23.4-win-x64\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--no-audit" "--no-fund" "--cache" "C:/Users/Alex/SIST/.tools/npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_19_30_700Z-
+10 verbose logfile C:\Users\Alex\SIST\.tools\npm-cache\_logs\2026-10-29T15_19_30_700Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-win32-arm64-msvc
+16 silly reify mark deleted [
+16 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-win32-arm64-msvc'
+16 silly reify ]
+17 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-x64-musl
+18 silly reify mark deleted [
+18 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-x64-musl'
+18 silly reify ]
+19 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-x64-gnu
+20 silly reify mark deleted [
+20 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-x64-gnu'
+20 silly reify ]
+21 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-arm64-musl
+22 silly reify mark deleted [
+22 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-arm64-musl'
+22 silly reify ]
+23 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-linux-arm64-gnu
+24 silly reify mark deleted [
+24 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-linux-arm64-gnu'
+24 silly reify ]
+25 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-darwin-x64
+26 silly reify mark deleted [
+26 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-darwin-x64'
+26 silly reify ]
+27 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@next\swc-darwin-arm64
+28 silly reify mark deleted [
+28 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@next\\swc-darwin-arm64'
+28 silly reify ]
+29 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-win32-ia32
+30 silly reify mark deleted [
+30 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-win32-ia32'
+30 silly reify ]
+31 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-win32-arm64
+32 silly reify mark deleted [
+32 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-win32-arm64'
+32 silly reify ]
+33 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-webcontainers-wasm32
+34 silly reify mark deleted [
+34 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-webcontainers-wasm32'
+34 silly reify ]
+35 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linuxmusl-x64
+36 silly reify mark deleted [
+36 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linuxmusl-x64'
+36 silly reify ]
+37 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linuxmusl-arm64
+38 silly reify mark deleted [
+38 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linuxmusl-arm64'
+38 silly reify ]
+39 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-x64
+40 silly reify mark deleted [
+40 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-x64'
+40 silly reify ]
+41 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-s390x
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-s390x'
+42 silly reify ]
+43 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-riscv64
+44 silly reify mark deleted [
+44 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-riscv64'
+44 silly reify ]
+45 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-ppc64
+46 silly reify mark deleted [
+46 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-ppc64'
+46 silly reify ]
+47 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-arm64
+48 silly reify mark deleted [
+48 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-arm64'
+48 silly reify ]
+49 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-linux-arm
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-linux-arm'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linuxmusl-x64
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linuxmusl-arm64
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-x64
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-s390x
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-s390x'
+58 silly reify ]
+59 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-riscv64
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-ppc64
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-arm64
+64 silly reify mark deleted [
+64 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-arm64'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-linux-arm
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-linux-arm'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-darwin-x64
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-darwin-x64'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-libvips-darwin-arm64
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-freebsd-wasm32
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-freebsd-wasm32'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-darwin-x64
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-darwin-x64'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\Alex\SIST\Proyecto-SIST\node_modules\@img\sharp-darwin-arm64
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\Alex\\SIST\\Proyecto-SIST\\node_modules\\@img\\sharp-darwin-arm64'
+76 silly reify ]
+77 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 1ms (cache hit)
+78 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+79 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+80 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 1ms (cache hit)
+81 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz 0ms (cache hit)
+82 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 0ms (cache hit)
+83 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz 0ms (cache hit)
+84 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz 0ms (cache hit)
+85 http cache react@https://registry.npmjs.org/react/-/react-19.3.0.tgz 0ms (cache hit)
+86 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz 1ms (cache hit)
+87 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+88 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+89 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+90 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 0ms (cache hit)
+91 http cache next@https://registry.npmjs.org/next/-/next-15.5.27.tgz 0ms (cache hit)
+92 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 0ms (cache hit)
+93 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz 0ms (cache hit)
+94 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001814.tgz 0ms (cache hit)
+95 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.27.tgz 0ms (cache hit)
+96 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.27.tgz 1ms (cache hit)
+97 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz 0ms (cache hit)
+98 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+99 http cache @img/sharp-wasm32@https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz 0ms (cache hit)
+100 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+101 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+102 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+103 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+104 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+105 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz. Extracting by manifest.
+106 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz. Extracting by manifest.
+107 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz. Extracting by manifest.
+108 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz. Extracting by manifest.
+109 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz. Extracting by manifest.
+110 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.3.0.tgz. Extracting by manifest.
+111 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz. Extracting by manifest.
+112 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+113 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+114 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+115 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz. Extracting by manifest.
+116 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.27.tgz. Extracting by manifest.
+117 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz. Extracting by manifest.
+118 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz. Extracting by manifest.
+119 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+120 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 0ms (cache hit)
+121 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001814.tgz. Extracting by manifest.
+122 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.27.tgz. Extracting by manifest.
+123 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.27.tgz. Extracting by manifest.
+124 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz. Extracting by manifest.
+125 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+126 silly tarball no local data for @img/sharp-wasm32@https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz. Extracting by manifest.
+127 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz. Extracting by manifest.
+128 silly tarball no local data for @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz. Extracting by manifest.
+129 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+130 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz. Extracting by manifest.
+131 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 376ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-15.5.27.tgz 405ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 411ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 447ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 501ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz 501ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 520ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 506ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 561ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 587ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz 603ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.3.0.tgz 625ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 689ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 681ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 677ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 772ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 787ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz 806ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 1261ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz 1332ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001814.tgz 2085ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz 2623ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz 2989ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 3321ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz 4237ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.27.tgz 11387ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.27.tgz 20554ms (cache miss)
+158 silly ADD node_modules/undici-types
+159 silly ADD node_modules/typescript
+160 silly ADD node_modules/tslib
+161 silly ADD node_modules/styled-jsx
+162 silly ADD node_modules/source-map-js
+163 silly ADD node_modules/sharp
+164 silly ADD node_modules/semver
+165 silly ADD node_modules/scheduler
+166 silly ADD node_modules/react-dom
+167 silly ADD node_modules/react
+168 silly ADD node_modules/postcss
+169 silly ADD node_modules/picocolors
+170 silly ADD node_modules/next
+171 silly ADD node_modules/nanoid
+172 silly ADD node_modules/detect-libc
+173 silly ADD node_modules/csstype
+174 silly ADD node_modules/client-only
+175 silly ADD node_modules/caniuse-lite
+176 silly ADD node_modules/@types/react
+177 silly ADD node_modules/@types/node
+178 silly ADD node_modules/@swc/helpers
+179 silly ADD node_modules/@next/swc-win32-x64-msvc
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD node_modules/@next/env
+188 silly ADD node_modules/@img/sharp-win32-x64
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD node_modules/@img/sharp-wasm32
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD node_modules/@img/colour
+215 silly ADD node_modules/@emnapi/runtime
+216 verbose cwd C:\Users\Alex\SIST\Proyecto-SIST
+217 verbose os Windows_NT 10.0.26300
+218 verbose node v22.23.4
+219 verbose npm  v10.9.9
+220 verbose exit 0
+221 info ok
